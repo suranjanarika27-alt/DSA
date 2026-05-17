@@ -1,0 +1,16 @@
+1) Try to write a python program that checks if a credit card number is valid or not
+
+Double every second digit. (For example, if you have a 7, it becomes 14).
+Reduce to a single digit. If any doubled digit is greater than 9, subtract 9.
+Sum all digits. Add the newly calculated digits along with the un-doubled digits.
+Check the Modulo. If the total sum is exactly divisible by 10 (i.e., Sum (mod{10}) == 0), the card is valid
+
+2) write a python program to find maximum product from a given array
+of positive and negative integers
+
+
+3) given an initial array 
+    10 20 30 40 50
+    Reach final state
+    30 40 10 50 20
+    Using minimum swaps
