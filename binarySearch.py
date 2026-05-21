@@ -15,11 +15,12 @@ def binarySearch(arr, target):
     return 
 
 if __name__ == "__main__":
-    target = int(input("Enter the target:"))
-    arr = list(map(int, input("Enter the array:").split()))
-    arr.sort()
-    print("Sorted array:", arr)
-    binarySearch(arr, target)
+    findthis = int(input("Enter the target:"))
+    insidethisarray = list(map(int, input("Enter the array:").split()))
+    insidethisarray.sort()
+    print("Sorted array:", insidethisarray)
+    binarySearch(insidethisarray, findthis)
+
 
 
 #"1"-->integer-->1
